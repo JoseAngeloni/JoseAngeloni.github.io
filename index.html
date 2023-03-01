@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>CV CARLOS BOWMAN</title>
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" type="text/css" href="estilos.css"/>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@1,200&display=swap" rel="stylesheet">
+   
+</head>
+
+<body>
+    
+    <header>
+        
+        <Nav>
+        
+            <Ul>
+                <Li><a href="#inicio">Inicio</a></Li>
+                <Li><a href="#sobremi">Sobre Mí</a></Li>
+                <Li><a href="#formacionacademica">Formación Académica</a></Li>
+                <Li><a href="#formacionprofesional">Formación Profesional</a></Li>
+                <li><a href="#suscripcion">Suscripción</a></li>
+                <Li id="jose"> <a href="#contacto">Contacto</a></Li>
+            </Ul>
+
+        </Nav>
+
+    </header>
+
+    <section class="inicio" id="inicio">    
+        
+        <div class="info">
+            <div class="foto">
+                <img src="https://s36496.pcdn.co/wp-content/uploads/2017/11/9-si-foto-cv.png" alt=""/>
+            </div>
+            <h1>CARLOS BOWMAN</h1>
+            <h2>DISEÑADOR - CREADOR - ARTISTA</h2>
+        </div>
+
+    </section>
+
+    <section class="sobremi" id="sobremi">
+        
+        <h2 class="titulo-seccion">Sobre Mi</h2>
+        
+        <h3>Detalles Personales</h3>
+        
+        <p class="especial">Me dedico a producir ideas creativas y originales para mis clientes</p>    
+        
+        <p>Me especializo en crear contenido en Internet. Ser un creador de contenido tiene muchas aristas.
+
+            Realizo proyectos en fotografía y otros en escritura. También aspiro a ser influencer o nómade digital. Sin importar el camino que elijan, todos estamos abocados a la misma función.
+            
+            Me enfoco en una audiencia particular y elijo plataformas específicas para compartir mis conocimientos, entretener o inspirar a otros.
+            
+            Lo que todos tenemos en común es la tarea de producir contenido realmente atractivo alrededor de un producto, servicio o estilo de vida.
+        </p>
+
+    </section>
+
+    <section class="formacionacademica" id="formacionacademica">
+        
+        <h2 class="titulo-seccion">Formación Académica</h2>
+        
+        <fieldset class="estudios">
+            <legend class="leyenda">Carreras Realizadas</legend>
+                <ul>
+                    <li>Tecnicatura Universitaria en Diseño y Animación Digital.</li>
+                    <li>Tecnicatura Superior en Producción Audiovisual. </li>
+                    <li>Diplomatura Universitaria de Posgrado en Diseño de contenidos educativos digitales.</li>
+                </ul>
+            <div class="imagenesestudios">    
+                    <img class="foto1" src="https://sitio.unnoba.edu.ar/wp-content/themes/unnoba2011/images/posgrado/BANNER_WEB_Posgrado.png" width="350" height="150" alt="">
+                    <img class="foto2" src="https://assets.eter.edu.ar/logo_25.png" width="150" height="150" alt="">
+                    <img class="foto3" src="https://ub.edu.ar/themes/custom/base/logo.svg" width="350" height="150" alt="">
+            </div>       
+        </fieldset>
+
+    </section>
+
+    <section class="formacionprofesional" id="formacionprofesional">
+        
+        <h2 class="titulo-seccion">Formación Profesional</h2>
+        
+        <fieldset class="proyectos">
+            <legend class="leyenda1">Proyectos Realizados</legend>
+                <ul>
+                    <li>Agencia de E-commerce.</li>
+                    <li>Producción Audiovisual para redes sociales.</li>
+                </ul>
+                <div class="imagenesproyectos">    
+                    <img class="foto4" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRDNWu3Q1ISNJbEHRRr0HAhl4X1fDqdMSm6dRmu8J-MwKW6JHfaSX_i_D7k0bIRGUlfeZU&usqp=CAU" width="450" height="250" alt="">
+                    <img class="foto5" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9ClwgPnWnAj75NuVcmUgDqY0yL01L-Q45lA&usqp=CAU" width="450" height="250" alt="">
+                </div>       
+        </fieldset>
+
+    </section>
+
+    <section class="suscripcion" id="suscripcion">
+        
+        <h1 class="blog">SUSCRIPCION A MI BLOG</h1>
+        
+        <form>
+            <p>Ingresa un correo Electrónico:</p>
+            <input id ="email2">
+            <button type="submit" id="validacion" onclick="validate()">ENVIAR</button>
+            <button type="reset" id="reset" onclick="restablecer()"></button>
+        </form>
+        
+        <h2 id="resultado"></h2>
+
+    </section>
+
+</body>
+
+<footer>
+
+    <section class="contacto" id="contacto">
+        
+        <h1 class="titulo-seccion">CONTACTO</h1>
+        
+        <h3>No dudes en comunicarte conmigo por algunos de estos medios !!!!</h3>
+        
+        <div class="contenido">
+            <h2 id="telefono" onmouseover="evento()" onmouseout="evento2()"><i class="fa-solid fa-phone"></i></h2>
+            <h2 id="direccion"onmouseover="evento3()" onmouseout="evento5()"><i class="fa-solid fa-street-view"></i></h2>
+            <h2 id="email"onmouseover="evento4()" onmouseout="evento6()"><i class="fa-solid fa-at"></i></h2>
+        </div>   
+        
+        <p id="demo"></p>
+        <p id="demo1"></p>
+        <p id="demo2"></p>
+
+        <h3 class="dato">----------  Mueva el puntero sobre los iconos para ver la información   -------</h3>
+    </section>
+
+</footer>
+
+<script src="main.js"></script>
+
+</html>

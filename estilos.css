@@ -1,0 +1,310 @@
+
+* {
+   padding: 10;
+   margin: 10;
+}
+
+html {
+   scroll-behavior: smooth;
+}
+
+section {
+   scroll-margin-top: 70px;
+}
+
+header {
+   position: sticky;
+   top: 0;
+   margin: auto;
+   max-width: 1000px;
+   z-index: 99;
+}
+
+nav ul {
+   list-style: none;
+   font-family: Arial, Helvetica;
+   float: left;
+   padding: 0;
+   background: #092327;
+   width: 100%;
+   max-width: 1000px;
+   margin: auto;
+}
+
+nav ul li a {
+   text-decoration: none;
+   color: white;
+   padding: 20px;
+   display: block;
+}
+
+nav ul li {
+   display: inline-block;
+   text-align: center;
+   cursor:pointer; 
+   transition: all 0.3s ease 0s;
+}
+
+nav ul li a:hover {
+   background: #Ef8354;
+}
+
+#jose {
+   float: right;
+}
+
+.inicio {
+   background: #a3be8c;
+   background-position: center center;
+   color: #2e3440;
+   max-width: 1000px;
+   margin: auto;
+   text-align: center;
+   padding: 0 10px;
+}
+
+.info {
+   padding-bottom: 170px;
+   font-family: 'Titillium Web', sans-serif;
+}
+
+.info h1 {
+   font-size: 4.5rem;
+   letter-spacing: 5px;
+}
+
+.info h2 {
+   font-weight: normal;
+   font-size: 30px;
+   letter-spacing: 2px;
+   margin-top: -5%;
+}
+
+.foto img {
+   max-width: 500px;
+   border-radius: 50%;
+   border: 10px solid #940249;
+   position: absolute;
+   left: 50%;
+   top: 45%;
+   transform: translate(-50%)
+}
+
+.titulo-seccion {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-size: 1.5rem;
+   text-align: center;
+   font-weight: bold;
+   font-style: italic;
+   letter-spacing: 10px;
+   text-decoration: underline;
+}
+
+.sobremi {
+   background-color: #eceff4;
+   padding: 180px 10px 100px 10px;
+   text-align: center;
+   max-width: 1000px;
+   margin: auto;
+}
+
+.sobremi h3 {
+   text-transform: uppercase;
+   font-size: 20px;
+}
+
+.sobremi .especial {
+   color: #940253;
+   font-weight: bold;
+   margin-top: 15px;
+}
+
+.sobremi p {
+   color: #666;
+   max-width: 700px;
+   margin: auto;
+   font-size: 1.5rem;
+}
+
+.formacionacademica {
+   background-color: #88e0d0;
+   padding: 10px 10px 100px 10px;
+   max-width: 1000px;
+   margin: auto;
+}
+
+.estudios {
+   margin-bottom: 10px;
+   border: solid 2px chocolate;
+   border-radius: 15px;
+   font-size: 1.5rem;
+}
+
+.leyenda {
+   border: solid 2px rgb(8, 28, 117); 
+   padding: 5px;
+   font-weight: bold;
+   border-radius: 20%;
+}
+
+.imagenesestudios {
+   display: flex;
+   margin-left: 30px;
+}
+
+.formacionprofesional {
+   background-color: #b48ead;
+   padding: 10px 10px 80px 10px;
+   max-width: 1000px;
+   margin: auto;
+}
+
+.proyectos {
+   margin-bottom: 10px;
+   border: solid 2px #d7eb27;
+   border-radius: 15px;
+   font-size: 1.5rem;
+}
+
+.leyenda1 {
+   border: solid 2px #2457af; 
+   padding: 5px;
+   font-weight: bold;
+   border-radius: 35%;
+}
+
+.imagenesproyectos .foto4 {
+      margin-left: 15px;
+      margin-right: 15px;
+}
+
+.suscripcion {
+   background-color: #d8b0d1;
+   padding: 10px 10px 80px 10px;
+   max-width: 1000px;
+   margin: auto;
+   text-align: center;
+}
+
+.suscripcion .blog {
+   color: #420a29;
+   font-weight: bold;
+   letter-spacing: 10px;
+   text-align: center;
+   margin: auto;
+   font-family: 'Titillium Web';
+   padding: 20px 10px 20px 10px;
+   font-size: 250%;
+}
+
+.suscripcion #validacion {
+   background: #eb94d0;
+   background-image: -webkit-linear-gradient(top, #eb94d0, #2079b0);
+   background-image: -moz-linear-gradient(top, #eb94d0, #2079b0);
+   background-image: -ms-linear-gradient(top, #eb94d0, #2079b0);
+   background-image: -o-linear-gradient(top, #eb94d0, #2079b0);
+   background-image: linear-gradient(to bottom, #eb94d0, #2079b0);
+   -webkit-border-radius: 28;
+   -moz-border-radius: 28;
+   border-radius: 28px;
+   text-shadow: 3px 2px 1px #9daef5;
+   -webkit-box-shadow: 6px 5px 24px #666666;
+   -moz-box-shadow: 6px 5px 24px #666666;
+   box-shadow: 6px 5px 24px #666666;
+   font-family: Arial;
+   color: #fafafa;
+   font-size: 27px;
+   padding: 19px;
+   text-decoration: none;
+   transition: all 0.5s;
+   cursor: pointer;
+}  
+
+#validacion:hover {
+   background: #2079b0;
+   background-image: -webkit-linear-gradient(top, #2079b0, #eb94d0);
+   background-image: -moz-linear-gradient(top, #2079b0, #eb94d0);
+   background-image: -ms-linear-gradient(top, #2079b0, #eb94d0);
+   background-image: -o-linear-gradient(top, #2079b0, #eb94d0);
+   background-image: linear-gradient(to bottom, #2079b0, #eb94d0);
+   text-decoration: none;
+}
+
+.suscripcion #reset {
+   backgound: #92c7eb;
+   background-image: url(https://w7.pngwing.com/pngs/49/360/png-transparent-reset-button-reset-button-push-button-computer-icons-restart-miscellaneous-electronics-trademark-thumbnail.png);
+   background-size: cover;
+   background-position: center;
+   display: inline-block;
+   border: none;
+   padding: 20px;
+   width: 70px;
+   border-radius: 900px;
+   height: 70px;
+   transition: all 0.5s;
+   cursor: pointer;
+}
+
+#reset:hover {
+   width: 75px;
+   height: 75px;
+}
+
+.contacto {
+   background-color: #ce9773f6;
+   padding: 50px 10px 120px 10px;
+   max-width: 1000px;
+   margin: auto;
+}
+
+.contacto h3 {
+   background-color: #a3be8c;
+   padding: 20px 10px 20px 10px;
+   text-align: center;
+   margin: auto;
+}
+.contacto .contenido {
+   display: flex;
+   color: #e60f2c;
+   font-size: 50px;
+}
+
+.contacto #telefono {
+   margin: 30px 150px 0px 250px;
+}
+
+.contacto #direccion {
+   margin: 30px 150px 0px 0px;
+}
+
+.contacto #email {
+   margin: 30px 150px 0px 0px;
+}
+
+#demo {
+   margin: 5px 150px 0px 190px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2rem;
+   color: #09128d;
+}  
+
+#demo1 {
+   text-align: center;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2rem;
+   color: #09128d;
+} 
+
+#demo2 {
+   margin: 0px 0px 0px 525px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 2rem;
+   color: #09128d;
+} 
+
+.contacto .dato {
+   text-align: center;
+   color: #4a0781;
+} 
+  
+  
